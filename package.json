@@ -1,0 +1,15 @@
+{
+  "name": "thiranex-ecommerce-app",
+  "version": "1.0.0",
+  "description": "Full-stack E-Commerce Web Application",
+  "main": "server/index.js",
+  "type": "module",
+  "scripts": {
+    "postinstall": "npm install --prefix server && npm install --prefix client",
+    "build": "npm run build --prefix client",
+    "start": "node server/index.js"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
